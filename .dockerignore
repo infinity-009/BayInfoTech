@@ -1,0 +1,14 @@
+.git
+.gitignore
+.DS_Store
+*.md
+.python-version
+GetGSA Coding Test.docx
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.coverage
+.venv
+venv/
