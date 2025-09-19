@@ -22,6 +22,12 @@ A FastAPI service that processes company profile and past performance documents,
 - `GET /docs` - Swagger UI documentation
 - `GET /redoc` - ReDoc documentation
 
+## Screenshot
+
+![GetGSA Document Ingestion UI](./assets/ui-screenshot.png)
+
+*The web interface showing successful document processing with sample data. The UI provides text areas for company profile and past performance input, with real-time validation feedback and structured JSON response display.*
+
 ## Quick Start
 
 ### Prerequisites
@@ -52,6 +58,16 @@ A FastAPI service that processes company profile and past performance documents,
    - API: http://localhost:8000
    - Web UI: http://localhost:8000/ui
    - API Docs: http://localhost:8000/docs
+
+### Web UI Features
+
+The included web interface (`/ui`) provides:
+- **Sample Data Loading**: One-click button to load test data
+- **Dual Text Areas**: Side-by-side input for company profile and past performance
+- **Real-time Processing**: Instant validation and parsing feedback
+- **Structured Display**: Formatted JSON response with syntax highlighting
+- **Status Indicators**: Clear success/warning/error messaging
+- **Mobile Responsive**: Works on desktop and mobile devices
 
 ### Running Tests
 
